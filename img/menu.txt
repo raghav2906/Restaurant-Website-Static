@@ -1,0 +1,133 @@
+function display_starters()
+{
+   document.getElementById("container1").style.display="block";
+   document.getElementById("container2").style.display="none";
+   document.getElementById("container3").style.display="none";   
+   document.getElementById("container4").style.display="none";
+   document.getElementById("container5").style.display="none";
+   document.getElementById("container6").style.display="none";
+   document.getElementById("container7").style.display="none";
+
+   document.getElementById("starters").style.backgroundColor="darkgreen";
+   document.getElementById("south").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("italian").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("chinese").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("beverages").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("north").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("desert").style.backgroundColor="rgb(68, 199, 35)";
+
+}
+function south(){
+   document.getElementById("container1").style.display="none";
+   document.getElementById("container2").style.display="block";
+   document.getElementById("container3").style.display="none";
+   document.getElementById("container4").style.display="none";
+   document.getElementById("container5").style.display="none";
+   document.getElementById("container6").style.display="none";
+   document.getElementById("container7").style.display="none";
+
+   document.getElementById("starters").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("south").style.backgroundColor="darkgreen";
+   document.getElementById("italian").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("chinese").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("beverages").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("north").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("desert").style.backgroundColor="rgb(68, 199, 35)";
+
+
+}
+function italian()
+{
+   document.getElementById("container1").style.display="none";
+   document.getElementById("container2").style.display="none";
+   document.getElementById("container3").style.display="block";
+   document.getElementById("container4").style.display="none";
+   document.getElementById("container5").style.display="none";
+   document.getElementById("container6").style.display="none";
+   document.getElementById("container7").style.display="none";
+
+   document.getElementById("starters").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("south").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("italian").style.backgroundColor="darkgreen";
+   document.getElementById("chinese").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("beverages").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("north").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("desert").style.backgroundColor="rgb(68, 199, 35)";
+
+
+}
+function chinese()
+{
+   document.getElementById("container1").style.display="none";
+   document.getElementById("container2").style.display="none";
+   document.getElementById("container3").style.display="none";
+   document.getElementById("container4").style.display="block";
+   document.getElementById("container5").style.display="none";
+   document.getElementById("container6").style.display="none";
+   document.getElementById("container7").style.display="none";
+
+   document.getElementById("starters").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("south").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("italian").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("chinese").style.backgroundColor="darkgreen";
+   document.getElementById("beverages").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("north").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("desert").style.backgroundColor="rgb(68, 199, 35)";
+ 
+}
+
+function north()
+{
+   document.getElementById("container1").style.display="none";
+   document.getElementById("container2").style.display="none";
+   document.getElementById("container3").style.display="none";
+   document.getElementById("container4").style.display="none";
+   document.getElementById("container5").style.display="block";
+   document.getElementById("container6").style.display="none";
+   document.getElementById("container7").style.display="none";
+
+   document.getElementById("starters").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("south").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("italian").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("chinese").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("beverages").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("north").style.backgroundColor="darkgreen";
+   document.getElementById("desert").style.backgroundColor="rgb(68, 199, 35)";
+
+}
+function beverages()
+{
+   document.getElementById("container1").style.display="none";
+   document.getElementById("container2").style.display="none";
+   document.getElementById("container3").style.display="none";
+   document.getElementById("container4").style.display="none";
+   document.getElementById("container5").style.display="none";
+   document.getElementById("container6").style.display="block";
+   document.getElementById("container7").style.display="none";
+
+   document.getElementById("starters").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("south").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("italian").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("chinese").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("beverages").style.backgroundColor="darkgreen";
+   document.getElementById("north").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("desert").style.backgroundColor="rgb(68, 199, 35)";
+}
+function desert()
+{
+   document.getElementById("container1").style.display="none";
+   document.getElementById("container2").style.display="none";
+   document.getElementById("container3").style.display="none";
+   document.getElementById("container4").style.display="none";
+   document.getElementById("container5").style.display="none";
+   document.getElementById("container6").style.display="none";
+   document.getElementById("container7").style.display="block";
+
+   document.getElementById("starters").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("south").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("italian").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("chinese").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("beverages").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("north").style.backgroundColor="rgb(68, 199, 35)";
+   document.getElementById("desert").style.backgroundColor="darkgreen";
+}

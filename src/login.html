@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Raghav</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <ul class="links">
+            <li>CONTACT US</li>
+            <li>GALLERY</li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li>OUR SPECIALITIES</li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li>HOME</li>
+            <div class="log">
+            <li id="logo"><img src="../img/logomain.png" width="60px" height="46px" ></li>   
+            </div>
+        </ul>
+        <div class="remarks" id="login">
+            <h1>Login</h1>
+            <div class="border"></div>
+            <form class="remarks-form" action="login.html" >
+               
+                <input type="email" id="maill" class="remarks-text" placeholder="your email id" required>
+                <input type="password" id="pswdl" class="remarks-text" placeholder="your password">
+                <button onclick="logcheck()" type="submit" class="remark-btn"  >login</button>
+                <p style="color: white;">didn't registered ?<span onclick="register()">register</span> </p>
+                <p style="color: red; text-align: center; display: none;" id="improvel" >incorrect details</p>
+             </form>
+            
+        </div>
+        <div class="remarks" id="register">
+            <h1>Register</h1>
+            <div class="border"></div>
+            <form class="remarks-form" action="remarks.html" >
+                <input type="text" id="name" class="remarks-text" placeholder="your Full Name">
+                <input type="number" id="age" class="remarks-text" placeholder="your age">
+                <input type="number" id="ph" class="remarks-text" placeholder="your contact number">
+                <input type="text" id="add" class="remarks-text" placeholder="your address">
+                <input type="email" id="mailr" class="remarks-text" placeholder="your email id" required>
+                <input type="password" id="pswdr" class="remarks-text" placeholder="new password(at least 8 characters)">
+                <button onclick="regcheck()" type="button" class="remark-btn"  >register</button>
+                <p style="color: white;">already registered ?<span onclick="login()">login</span> </p>
+                <p style="color: red; text-align: center; display: none;" id="improve" >incorrect details</p>
+             </form>
+            
+        </div>
+        <footer>
+            <img src="../img/logomain.png" width="80px" height="66px" ><span style="font-size: 2rem;"> SS restaurant</span>
+        </footer>
+        <script src="./js/script.js">
+
+        </script>
+    </body>
+</html>

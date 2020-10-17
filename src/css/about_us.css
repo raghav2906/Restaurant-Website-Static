@@ -1,0 +1,110 @@
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: rgb(124, 98, 228);
+    text-shadow: 1px 0 rgb(144, 197, 190);
+}
+body{
+    
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../../img/back10.jpg");
+    background-size: 1400px 1600px;
+}
+.fs{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.links li{
+    float: right;
+    display: block;
+    color: white;
+    padding: 24px 24px;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.links li:hover{
+    background-color:rgb(248, 185, 69) ;
+}
+ ul.links{
+    
+   
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(0,0,0,0.5);
+
+    }
+#logo{
+    float: left;
+}
+.log li:hover{
+    background-color: rgba(0,0,0,0);
+}
+    .content
+    {
+        background-color: rgba(146, 142, 142, 0.7);
+        font-size: 1rem;
+        width: 50%;
+        padding:20px;
+        margin: auto;
+        border: 2px solid black;
+        font-weight: 500;margin-top: 5rem;
+        
+    }
+.left{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    
+}
+.right{
+  
+    margin-left: 14rem;
+}
+#ch{
+    text-shadow:1px 0 aliceblue;
+}
+.ps{
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    background-color: rgba(146, 142, 142, 0.7);
+    padding: 20px;
+}
+.ps a,.content a{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.ps a img {
+    width: 130%;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.ps a img:hover{
+    filter: none;
+}
+#c1,#c2,#c3,#c4{
+    display: none;
+}
+footer{
+    margin-top: 9rem;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    height: 60px;
+    padding: 25px 0;
+    color:  rgb(17, 255, 49);;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.content a img{
+    width: 115%;
+}

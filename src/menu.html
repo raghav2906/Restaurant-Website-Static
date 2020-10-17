@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MENU</title>
+        <link rel="stylesheet" href="./css/menu.css">
+    </head>
+    <body id="body" onload="load()">
+        <ul class="links">
+            
+            <li>CONTACT US</li>
+            <li>GALLERY</li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li>OUR SPECIALITIES</li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li>HOME</li>
+            <div class="log">
+            <li id="logo"><img src="../img/logomain.png" width="60px" height="46px" ></li>   
+            </div>
+        </ul>
+        <header >
+            <p><img id="SS" src="../img/logomain.png" alt= "shivshakti sweets" width="80px" height="66px">MENU</p>
+        </header>
+        <ul class="menu">
+            <li id="starters" onclick="display_starters()">Starters</li>
+            <li  id="south" onclick="south()">SouthIndian</li>
+            <li id="italian" onclick="italian()">Italian</li>
+            <li id="chinese" onclick="chinese()">Chinese</li>
+            <li id="north" onclick="north()">NorthIndian</li>
+            <li id="beverages" onclick="beverages()">Beverages</li>
+            <li id="desert" onclick="desert()">Deserts</li>
+        </ul>  
+          
+        <div  id="container1">
+            <h4>starters<span style="float:right;">Price</span></h4>
+            <div class="content">
+                
+                <ul style="list-style-type:none;">
+                   <li><p>French Fries <span class="right">  60/- </span></p></li>
+                   <li><img src="../img/french_fries.gif" ></li>
+                   <li><p>cheese grill toast<span class="right">  60/- </span></p></li>
+                   <li><img src="../img/grill_toast.jfif" ></li>
+                   <li><p>veg. grilled sandwich<span class="right">  70/- </span></p></li>
+                   <li><img src="../img/grill_sand.jfif" ></li>
+                   <li><p>hare bhare kabab<span class="right">  80/- </span></p></li>
+                   <li><img src="../img/kabab.jfif" ></li> 
+                   <li><p>spring roll<span class="right">  90/- </span></p></li>
+                   <li><img src="../img/spring_roll.jfif" ></li>
+                   <li><p>crispy corn<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/crispy_corn.jfif"></li>
+                   <li><p>paneer tikka<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/paneer_tikka.jfif" ></li>
+                  
+                   
+               </ul>
+                   
+            
+            </div>
+        </div>
+        <div  id="container2">
+            <h4>Meal<span style="float:right;">Price</span></h4>
+            <h6><span style="float:right;">with / without butter</span></h6>
+            <div class="content">
+                
+                <ul style="list-style-type:none;">
+                   <li><br><pre>Plain Dosa <span class="right">90/-           60/-    </span></pre></li>
+                   <li><img src="../img/plain_dosa.jpg" ></li>
+                   <li><pre>Masala Dosa<span class="right">90/-           60/-    </span></pre></li>
+                   <li><img src="../img/masala_dosa.jpg"></li>
+                   <li><pre>Rava Masala Dosa<span class="right">90/-           60/-    </span></pre></li>
+                   <li><img src="../img/rava_dosa.jpg" ></li>
+                   <li><pre>Mysore Masala dosa<span class="right">90/-           60/-    </span></pre></li>
+                   <li><img src="../img/mysore_masala.jpg" ></li>
+                   <li><pre>Cheese Dosa<span class="right">90/-           60/-    </span></pre></li>
+                   <li><img src="../img/cheese_dosa.jpg" ></li>
+                   <li><pre>Ragi Dosa<span class="right">90/-           60/-    </span></pre></li>
+                   <li><img src="../img/ragi_dosa.jpg" ></li>
+                   <li><pre>Schezwan dosa<span class="right">90/-           60/-    </span></pre></li>
+                   <li><img src="../img/schezwan_dosa.jpg" ></li>
+                   <li><pre>Idli sambhar<span class="right">90/-           60/-    </span></pre></li>
+                   <li><img src="../img/idli.jfif" ></li>
+                   <li><pre>Sambhar vada<span class="right">90/-           60/-    </span></pre></li>
+                   <li><img src="../img/sambhar_vada.jfif" ></li>
+                   
+               </ul>
+            </div>
+            <h4>Deserts<span style="float:right;">Price</span></h4>
+            <div class="content">
+                
+                <ul style="list-style-type:none;">
+                   <li><br><p>Payasam<span class="right">90/-</span></p></li>
+                   <li><img src="../img/payasam.jpg" ></li>
+                   <li><p>Mysore pak<span class="right">90/-</span></p></li>
+                   <li><img src="../img/mysorepak.jpg"></li>
+                   <li><p>Kozhukkattai <span class="right">90/-</span></p></li>
+                   <li><img src="../img/kozhu.jpg" ></li>
+                   <li><p>Maladu <span class="right">90/-</span></p></li>
+                   <li><img src="../img/maladu.jpg" ></li>
+                   <li><p>Rava kesari<span class="right">90/-</span></p></li>
+                   <li><img src="../img/ravakesari.jpg" ></li>
+                   <li><p>Coconut barfi<span class="right">90/-</span></p></li>
+                   <li><img src="../img/coconutbarfi.jpg" ></li>
+                   
+               </ul>
+            </div>
+        </div>
+        <div  id="container3">
+            <h4>Italian<span style="float:right;">Price</span></h4>
+            <div class="content">
+                
+                <ul style="list-style-type:none;">
+                   <li><p>white sauce pasta <span class="right">  60/- </span></p></li>
+                   <li><img src="../img/white_pasta.jfif" ></li>
+                   <li><p>red sauce pasta<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/red_pasta.jfif"></li>
+                   <li><p>cheese pizza<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/cheese_p.jfif" ></li>
+                   <li><p>OTC pizza<span class="right">  70/- </span></p></li>
+                   <li><img src="../img/OTC_p.jfif" ></li>
+                   <li><p>calzones<span class="right">  90/- </span></p></li>
+                   <li><img src="../img/calzones.jfif" ></li>
+                   <li><p>pizza Marinara<span class="right">  60/- </span></p></li>
+                   <li><img src="../img/p_mar.jfif" ></li>
+                   <li><p>lasagna<span class="right">  80/- </span></p></li>
+                   <li><img src="../img/las.jfif" ></li>
+                   <li><p>Panettone<span class="right">  80/- </span></p></li>
+                   <li><img src="../img/pane.jfif" ></li>
+                   
+               </ul>
+            </div>
+         </div>
+         <div  id="container4">
+            <h4>Chinese<span style="float:right;">Price</span></h4>
+            <div class="content">
+                
+                <ul style="list-style-type:none;">
+                   <li><p>Hakka Noodles <span class="right">  60/- </span></p></li>
+                   <li><img src="../img/hak_noodles.jpg" ></li>
+                   <li><p>Honey chilli potato<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/honey_potato.jfif"></li>
+                   <li><p> Veg.Steam Momos<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/momos.jfif" ></li>
+                   <li><p>veg. fried momos<span class="right">  70/- </span></p></li>
+                   <li><img src="../img/frie_momos.jfif" ></li>
+                   <li><p>Veg. tandoori momos<span class="right">  90/- </span></p></li>
+                   <li><img src="../img/tandoori_momos.jfif" ></li>
+                   <li><p>Red bean soup<span class="right">  60/- </span></p></li>
+                   <li><img src="../img/red_bean_soup.jfif" ></li>
+                   <li><p>Dry Manchurian<span class="right">  80/- </span></p></li>
+                   <li><img src="../img/dry_m.jfif" ></li>
+                   <li><p>Gravy Manchurian<span class="right">  80/- </span></p></li>
+                   <li><img src="../img/gravy_m.jfif" ></li>
+                   <li><p>Fried rice<span class="right">  80/- </span></p></li>
+                   <li><img src="../img/fried_rice.jfif" ></li>
+                   
+               </ul>
+                   
+            
+            </div>
+        </div>
+        <div  id="container5">
+            <h4>Sabziyaan<span style="float:right;">Price</span></h4>
+            <div class="content">
+                
+                <ul style="list-style-type:none;">
+                   <li><p>Dal fry<span class="right">  60/- </span></p></li>
+                   <li><img src="../img/dal_fry.jfif" ></li>
+                   <li><p>Dal makhani<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/dal_makhani.jfif"></li>
+                   <li><p>Malai kofta<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/malai_kofta.jfif" ></li>
+                   <li><p>palak paneer<span class="right">  70/- </span></p></li>
+                   <li><img src="../img/palak_paneer.jfif" ></li>
+                   <li><p>Gobhi Masala<span class="right">  60/- </span></p></li>
+                   <li><img src="../img/gobhi.jfif" ></li>
+                   <li><p>Aloo pyaj<span class="right">  20/- </span></p></li>
+                   <li><img src="../img/aloo_pyaj.jfif" ></li>
+                   <li><p>Paneer butter masala<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/paneer_butter.jfif" ></li>
+                   <li><p> shahi Paneer<span class="right">  70/- </span></p></li>
+                   <li><img src="../img/shahi_paneer.jfif" ></li>
+                   <li><p>paneer lababdaar<span class="right">  90/- </span></p></li>
+                   <li><img src="../img/Paneer_Lababdar.jpg" ></li>
+                   <li><p>Paneer korma<span class="right">  60/- </span></p></li>
+                   <li><img src="../img/paneer_korma.jfif" ></li>
+               </ul>       
+             
+
+            </div>
+            <h4>Roti<span style="float:right;">Price</span></h4>
+            <div class="content">
+                
+                <ul style="list-style-type:none;">
+                   <li><p>Tandoori Roti<span class="right">  60/- </span></p></li>
+                   <li><img src="../img/tandoori_roti.jfif" ></li>
+                   <li><p>butter roti<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/butter_roti.jfif"></li>
+                   <li><p>Naan plain<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/plain_naan.jfif" ></li>
+                   <li><p>butter Naan<span class="right">  70/- </span></p></li>
+                   <li><img src="../img/butter_naan.jpg" ></li>
+                   <li><p>Stuff Naan<span class="right">  90/- </span></p></li>
+                   <li><img src="../img/stuff_naan.jfif" ></li>
+                  
+                   
+               </ul>
+            </div>
+        </div>
+        <div  id="container6">
+            <h4>Cold drinks<span style="float:right;">Price</span></h4>
+            <div class="content">
+                
+                <ul style="list-style-type:none;">
+                   <li><p>lemonade<span class="right">  60/- </span></p></li>
+                   <li><img src="../img/lemonade.jfif" ></li>
+                   <li><p>Virgin mojito<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/mojito.jfif"></li>
+                   <li><p>orange juice<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/orange_juice.jfif" ></li>
+                   <li><p>Cold coffee<span class="right">  70/- </span></p></li>
+                   <li><img src="../img/cold_coffee.jfif" ></li>
+                   <li><p>fruit juice<span class="right">  90/- </span></p></li>
+                   <li><img src="../img/fruit_juice.jfif" ></li>
+                   <li><p>ice tea<span class="right">  60/- </span></p></li>
+                   <li><img src="../img/ice_tea.jfif" ></li>
+                   <li><p>soda can<span class="right">  60/- </span></p></li>
+                   <li><img src="../img/soda.jfif" ></li>
+                   
+               </ul>       
+             
+
+            </div>
+            <h4>Hot drinks<span style="float:right;">Price</span></h4>
+            <div class="content">
+                
+                <ul style="list-style-type:none;">
+                   <li><p>hot coffee<span class="right">  60/- </span></p></li>
+                   <li><img src="../img/hot_coffee.jfif" ></li>
+                   <li><p>hot chocolate<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/hot_choco.jfif"></li>
+                   <li><p>tea<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/tea.jfif" ></li>
+                   <li><p>green tea<span class="right">  70/- </span></p></li>
+                   <li><img src="../img/green_tea.jfif" ></li>
+                   <li><p>lemon tea<span class="right">  90/- </span></p></li>
+                   <li><img src="../img/lemon_tea.jfif" ></li>
+                  
+                   
+               </ul>
+            </div>
+        </div>
+        <div  id="container7">
+            <h4>sweets<span style="float:right;">Price</span></h4>
+            <div class="content">
+                
+                <ul style="list-style-type:none;">
+                   <li><p>Gulab jamun<span class="right">  60/- </span></p></li>
+                   <li><img src="../img/gulab_jamun.jfif" ></li>
+                   <li><p>mango kalakand<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/mangokalakand.jfif"></li>
+                   <li><p>moong halwa<span class="right">  120/- </span></p></li>
+                   <li><img src="../img/moong_halwa.jfif" ></li>
+                   <li><p>badam halwa<span class="right">  70/- </span></p></li>
+                   <li><img src="../img/badam_halwa.jfif" ></li>
+                   <li><p>shrikhand<span class="right">  90/- </span></p></li>
+                   <li><img src="../img/shrikhand.jfif" ></li>
+                   <li><p>Ras malai<span class="right">  60/- </span></p></li>
+                   <li><img src="../img/ras_malai.jfif" ></li>
+                   <li><p>Brownie<span class="right">  60/- </span></p></li>
+                   <li><img src="../img/brownie.jfif" ></li>
+               </ul>       
+             
+
+            </div>
+        </div>
+        <footer id="foot" style="display: none;">
+            <img src="../img/logomain.png" width="80px" height="66px" ><span style="font-size: 2rem;"> SS restauarnt</span>
+        </footer>
+        <script src="./js/menu.js"></script>
+    </body>
+</html>
